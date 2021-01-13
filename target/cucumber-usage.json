@@ -1,0 +1,452 @@
+[
+  {
+    "source": "^user is available on Login Page Of OrangeHRM$",
+    "steps": [
+      {
+        "name": "user is available on Login Page Of OrangeHRM",
+        "aggregatedDurations": {
+          "average": 4.6980942,
+          "median": 4.6980942
+        },
+        "durations": [
+          {
+            "duration": 4.6980942,
+            "location": "src/test/resources/features/OrangeHRM.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on Login Button$",
+    "steps": [
+      {
+        "name": "user clicks on Login Button",
+        "aggregatedDurations": {
+          "average": 5.4694954,
+          "median": 5.4694954
+        },
+        "durations": [
+          {
+            "duration": 5.4694954,
+            "location": "src/test/resources/features/OrangeHRM.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on save button$",
+    "steps": [
+      {
+        "name": "user clicks on save button",
+        "aggregatedDurations": {
+          "average": 3.6984296,
+          "median": 3.6984296
+        },
+        "durations": [
+          {
+            "duration": 3.6984296,
+            "location": "src/test/resources/features/OrangeHRM.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters username from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters username from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 4.1962688,
+          "median": 4.1962688
+        },
+        "durations": [
+          {
+            "duration": 4.1962688,
+            "location": "src/test/resources/features/OrangeHRM.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters username for admin  from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters username for admin  from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.1954971,
+          "median": 0.1954971
+        },
+        "durations": [
+          {
+            "duration": 0.1954971,
+            "location": "src/test/resources/features/OrangeHRM.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters employee id from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters employee id from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.1397557,
+          "median": 0.1397557
+        },
+        "durations": [
+          {
+            "duration": 0.1397557,
+            "location": "src/test/resources/features/OrangeHRM.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters lastname from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters lastname from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.1694644,
+          "median": 0.1694644
+        },
+        "durations": [
+          {
+            "duration": 0.1694644,
+            "location": "src/test/resources/features/OrangeHRM.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters employee name for admin from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters employee name for admin from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.2510945,
+          "median": 0.2510945
+        },
+        "durations": [
+          {
+            "duration": 0.2510945,
+            "location": "src/test/resources/features/OrangeHRM.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on Add Button$",
+    "steps": [
+      {
+        "name": "user clicks on Add Button",
+        "aggregatedDurations": {
+          "average": 0.7411706,
+          "median": 0.7411706
+        },
+        "durations": [
+          {
+            "duration": 0.7411706,
+            "location": "src/test/resources/features/OrangeHRM.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on search Button$",
+    "steps": [
+      {
+        "name": "user clicks on search Button",
+        "aggregatedDurations": {
+          "average": 0.6006834,
+          "median": 0.6006834
+        },
+        "durations": [
+          {
+            "duration": 0.6006834,
+            "location": "src/test/resources/features/OrangeHRM.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters password from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters password from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.1839866,
+          "median": 0.1839866
+        },
+        "durations": [
+          {
+            "duration": 0.1839866,
+            "location": "src/test/resources/features/OrangeHRM.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user navigates to Admin Module$",
+    "steps": [
+      {
+        "name": "user navigates to Admin Module",
+        "aggregatedDurations": {
+          "average": 1.3447795,
+          "median": 1.3447795
+        },
+        "durations": [
+          {
+            "duration": 1.3447795,
+            "location": "src/test/resources/features/OrangeHRM.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters employee name from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters employee name from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.5851604,
+          "median": 0.5851604
+        },
+        "durations": [
+          {
+            "duration": 0.5851604,
+            "location": "src/test/resources/features/OrangeHRM.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on search button for admin$",
+    "steps": [
+      {
+        "name": "user clicks on search button for admin",
+        "aggregatedDurations": {
+          "average": 0.5637626,
+          "median": 0.5637626
+        },
+        "durations": [
+          {
+            "duration": 0.5637626,
+            "location": "src/test/resources/features/OrangeHRM.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user navigates to PIM Module$",
+    "steps": [
+      {
+        "name": "user navigates to PIM Module",
+        "aggregatedDurations": {
+          "average": 0.1893713,
+          "median": 0.1893713
+        },
+        "durations": [
+          {
+            "duration": 0.1893713,
+            "location": "src/test/resources/features/OrangeHRM.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters confirm password from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters confirm password from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.1915343,
+          "median": 0.1915343
+        },
+        "durations": [
+          {
+            "duration": 0.1915343,
+            "location": "src/test/resources/features/OrangeHRM.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters system Username from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters system Username from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 9.0005902,
+          "median": 9.0005902
+        },
+        "durations": [
+          {
+            "duration": 9.0005902,
+            "location": "src/test/resources/features/OrangeHRM.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on AddEmployee Option$",
+    "steps": [
+      {
+        "name": "user clicks on AddEmployee Option",
+        "aggregatedDurations": {
+          "average": 1.0660226,
+          "median": 1.0660226
+        },
+        "durations": [
+          {
+            "duration": 1.0660226,
+            "location": "src/test/resources/features/OrangeHRM.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on UserManagement Option$",
+    "steps": [
+      {
+        "name": "user clicks on UserManagement Option",
+        "aggregatedDurations": {
+          "average": 0.0773993,
+          "median": 0.0773993
+        },
+        "durations": [
+          {
+            "duration": 0.0773993,
+            "location": "src/test/resources/features/OrangeHRM.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user verifies login verification from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user verifies login verification from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.1275257,
+          "median": 0.1275257
+        },
+        "durations": [
+          {
+            "duration": 0.1275257,
+            "location": "src/test/resources/features/OrangeHRM.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters filepath for photograph from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters filepath for photograph from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.1378524,
+          "median": 0.1378524
+        },
+        "durations": [
+          {
+            "duration": 0.1378524,
+            "location": "src/test/resources/features/OrangeHRM.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on save button for admin$",
+    "steps": [
+      {
+        "name": "user clicks on save button for admin",
+        "aggregatedDurations": {
+          "average": 0.0888529,
+          "median": 0.0888529
+        },
+        "durations": [
+          {
+            "duration": 0.0888529,
+            "location": "src/test/resources/features/OrangeHRM.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on Employee List$",
+    "steps": [
+      {
+        "name": "user clicks on Employee List",
+        "aggregatedDurations": {
+          "average": 1.2374032,
+          "median": 1.2374032
+        },
+        "durations": [
+          {
+            "duration": 1.2374032,
+            "location": "src/test/resources/features/OrangeHRM.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters password for admin from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters password for admin from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.2416184,
+          "median": 0.2416184
+        },
+        "durations": [
+          {
+            "duration": 0.2416184,
+            "location": "src/test/resources/features/OrangeHRM.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters firstname from given sheetname as \"([^\"]*)\" and rownumber \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user enters firstname from given sheetname as \"Sheet1\" and rownumber \"0\"",
+        "aggregatedDurations": {
+          "average": 0.2216018,
+          "median": 0.2216018
+        },
+        "durations": [
+          {
+            "duration": 0.2216018,
+            "location": "src/test/resources/features/OrangeHRM.feature:15"
+          }
+        ]
+      }
+    ]
+  }
+]

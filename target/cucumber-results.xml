@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="50.714771">
+    <testcase classname="OrangeHRM Functionality Feature" name="OrangeHRM Functionality Scenario" time="50.714771">
+        <system-out>
+            <![CDATA[Given user is available on Login Page Of OrangeHRM..........................passed
+Then user enters username from given sheetname as "Sheet1" and rownumber "0".passed
+And user enters password from given sheetname as "Sheet1" and rownumber "0".passed
+Then user clicks on Login Button............................................passed
+And user verifies login verification from given sheetname as "Sheet1" and rownumber "0".passed
+When user navigates to PIM Module...........................................passed
+Then user clicks on AddEmployee Option......................................passed
+And user enters firstname from given sheetname as "Sheet1" and rownumber "0".passed
+And user enters lastname from given sheetname as "Sheet1" and rownumber "0".passed
+And user enters filepath for photograph from given sheetname as "Sheet1" and rownumber "0".passed
+Then user clicks on save button.............................................passed
+And user clicks on Employee List............................................passed
+Then user enters employee name from given sheetname as "Sheet1" and rownumber "0".passed
+And user enters employee id from given sheetname as "Sheet1" and rownumber "0".passed
+And user clicks on search Button............................................passed
+When user navigates to Admin Module.........................................passed
+Then user clicks on UserManagement Option...................................passed
+And user clicks on Add Button...............................................passed
+Then user enters employee name for admin from given sheetname as "Sheet1" and rownumber "0".passed
+And user enters username for admin  from given sheetname as "Sheet1" and rownumber "0".passed
+And user enters password for admin from given sheetname as "Sheet1" and rownumber "0".passed
+And user enters confirm password from given sheetname as "Sheet1" and rownumber "0".passed
+Then user clicks on save button for admin...................................passed
+Then user enters system Username from given sheetname as "Sheet1" and rownumber "0".passed
+And user clicks on search button for admin..................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

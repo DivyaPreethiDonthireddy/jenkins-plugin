@@ -1,0 +1,61 @@
+Feature: OrangeHRM Functionality Feature
+  The user login to OrangeHRM with valid username and password.
+  The user creates a new Employee by filling details in AddEmployee under Pim.
+  The user can search for their profile creation in Employee List under Pim.
+  The user can create admin credentials using their employee profile and can search for their admin profile creation.
+
+  Scenario Outline: OrangeHRM Functionality Scenario                                                           [90m# src/test/resources/features/OrangeHRM.feature:7[0m
+    [36mGiven [0m[36muser is available on Login Page Of OrangeHRM[0m
+    [36mThen [0m[36muser enters username from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mAnd [0m[36muser enters password from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mThen [0m[36muser clicks on Login Button[0m
+    [36mAnd [0m[36muser verifies login verification from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mWhen [0m[36muser navigates to PIM Module[0m
+    [36mThen [0m[36muser clicks on AddEmployee Option[0m
+    [36mAnd [0m[36muser enters firstname from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mAnd [0m[36muser enters lastname from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mAnd [0m[36muser enters filepath for photograph from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mThen [0m[36muser clicks on save button[0m
+    [36mAnd [0m[36muser clicks on Employee List[0m
+    [36mThen [0m[36muser enters employee name from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mAnd [0m[36muser enters employee id from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mAnd [0m[36muser clicks on search Button[0m
+    [36mWhen [0m[36muser navigates to Admin Module[0m
+    [36mThen [0m[36muser clicks on UserManagement Option[0m
+    [36mAnd [0m[36muser clicks on Add Button[0m
+    [36mThen [0m[36muser enters employee name for admin from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mAnd [0m[36muser enters username for admin  from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mAnd [0m[36muser enters password for admin from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mAnd [0m[36muser enters confirm password from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mThen [0m[36muser clicks on save button for admin[0m
+    [36mThen [0m[36muser enters system Username from given sheetname as "<SheetName>" and rownumber "<RowNumber>"[0m
+    [36mAnd [0m[36muser clicks on search button for admin[0m
+
+    Examples: 
+
+  Scenario Outline: OrangeHRM Functionality Scenario                                            [90m# src/test/resources/features/OrangeHRM.feature:35[0m
+    [32mGiven [0m[32muser is available on Login Page Of OrangeHRM[0m                                          [90m# LoginPageStepDefinition.userIsAvailableOnLoginPageOfOrangeHRM()[0m
+    [32mThen [0m[32muser enters username from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m                [90m# LoginPageStepDefinition.userEntersUsernameFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mAnd [0m[32muser enters password from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m                 [90m# LoginPageStepDefinition.userEntersPasswordFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mThen [0m[32muser clicks on Login Button[0m                                                            [90m# LoginPageStepDefinition.userClicksOnLoginButton()[0m
+    [32mAnd [0m[32muser verifies login verification from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m     [90m# HomePageStepDefinition.userVerifiesLoginVerificationFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mWhen [0m[32muser navigates to PIM Module[0m                                                           [90m# PIMPageStepDefinition.userNavigatesToPIMModule()[0m
+    [32mThen [0m[32muser clicks on AddEmployee Option[0m                                                      [90m# PIMPageStepDefinition.userClicksOnAddEmployeeOption()[0m
+    [32mAnd [0m[32muser enters firstname from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m                [90m# PIMPageStepDefinition.userEntersFirstnameFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mAnd [0m[32muser enters lastname from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m                 [90m# PIMPageStepDefinition.userEntersLastnameFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mAnd [0m[32muser enters filepath for photograph from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m  [90m# PIMPageStepDefinition.userEntersFilepathForPhotographFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mThen [0m[32muser clicks on save button[0m                                                             [90m# PIMPageStepDefinition.userClicksOnSaveButton()[0m
+    [32mAnd [0m[32muser clicks on Employee List[0m                                                            [90m# PIMPageStepDefinition.userClicksOnEmployeeList()[0m
+    [32mThen [0m[32muser enters employee name from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m           [90m# PIMPageStepDefinition.userEntersEmployeeNameFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mAnd [0m[32muser enters employee id from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m              [90m# PIMPageStepDefinition.userEntersEmployeeIdFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mAnd [0m[32muser clicks on search Button[0m                                                            [90m# PIMPageStepDefinition.userClicksOnSearchButton()[0m
+    [32mWhen [0m[32muser navigates to Admin Module[0m                                                         [90m# AdminPageStepDefinition.userNavigatesToAdminModule()[0m
+    [32mThen [0m[32muser clicks on UserManagement Option[0m                                                   [90m# AdminPageStepDefinition.userClicksOnUserManagementOption()[0m
+    [32mAnd [0m[32muser clicks on Add Button[0m                                                               [90m# AdminPageStepDefinition.userClicksOnAddButton()[0m
+    [32mThen [0m[32muser enters employee name for admin from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m [90m# AdminPageStepDefinition.userEntersEmployeeNameForAdminFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mAnd [0m[32muser enters username for admin  from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m      [90m# AdminPageStepDefinition.userEntersUsernameForAdminFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mAnd [0m[32muser enters password for admin from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m       [90m# AdminPageStepDefinition.userEntersPasswordForAdminFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mAnd [0m[32muser enters confirm password from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m         [90m# AdminPageStepDefinition.userEntersConfirmPasswordFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mThen [0m[32muser clicks on save button for admin[0m                                                   [90m# AdminPageStepDefinition.userClicksOnSaveButtonForAdmin()[0m
+    [32mThen [0m[32muser enters system Username from given sheetname as "[0m[32m[1mSheet1[0m[32m" and rownumber "[0m[32m[1m0[0m[32m"[0m         [90m# AdminPageStepDefinition.userEntersSystemUsernameFromGivenSheetnameAsAndRownumber(String,String)[0m
+    [32mAnd [0m[32muser clicks on search button for admin[0m                                                  [90m# AdminPageStepDefinition.userClicksOnSearchButtonForAdmin()[0m
